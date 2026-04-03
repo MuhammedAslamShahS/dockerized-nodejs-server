@@ -1,0 +1,25 @@
+{
+  "name": "docker-node-express-app",
+  "version": "1.0.0",
+  "description": "Dockerized Node.js Express server with production-ready structure",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "docker",
+    "api"
+  ],
+  "author": "Muhammed Aslam Shah S",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
