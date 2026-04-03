@@ -30,7 +30,7 @@ app.get("/health", (req, res) => {
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "Hello from Dockerized Node.js Express Server 🚀",
+    message: "Hello from Dockerized Node.js Express Server updated version🚀",
     author: AUTHOR,
   });
 });
